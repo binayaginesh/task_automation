@@ -1,0 +1,261 @@
+file,parse_success,address_bar_visible,url_x,url_y,olympus_mons,latitude,longitude,terrain_distance_km,measurement_line_visible,decision,failure_count,all_reasons,all_messages,your_verdict,model_was_correct,notes,raw_output
+32f20d69-d8b6-4ea0-88fa-1695367c9425.webp,True,True,-133.82446039432142,18.654784808271728,False,,,3.8,False,rejected,3,distance_out_of_range | search_panel_not_showing_olympus_mons | measurement_line_not_visible,"Your measured diameter is 3.8 km, which is outside the accepted range of 600.13–620.13 km. Redraw the line across the full width of Olympus Mons. | Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel. | The measurement line isn't visible on the Mars map — make sure the line drawn across Olympus Mons is clearly shown in your screenshot.",,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.82446039432142,
+  ""url_y"": 18.654784808271728,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 3.8,
+  ""measurement_line_visible"": false
+}"
+D9285AC4-E21B-42B8-8606-85763BF4E226.webp,True,True,,,False,,,605.76,True,rejected,2,url_coordinates_not_found | search_panel_not_showing_olympus_mons,The x and y coordinates could not be found in the address bar URL — make sure the full NASA Trek URL is visible and not truncated. | Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 605.76,
+  ""measurement_line_visible"": true
+}"
+IMG-20260425-WA0019.webp,True,True,-133.8354656837602,18.65275889,True,18.65275889,-133.8025,601.07,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.8354656837602,
+  ""url_y"": 18.65275889,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 601.07,
+  ""measurement_line_visible"": true
+}"
+IMG-20260428-WA0017.webp,True,True,-133.8134740664014,18.632812152431597,True,18.65275889,-133.8025,611.52,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.8134740664014,
+  ""url_y"": 18.632812152431597,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 611.52,
+  ""measurement_line_visible"": true
+}"
+IMG-20260603-WA0000.webp,True,False,,,True,18.65275889,-133.8025,606.62,True,rejected,1,address_bar_not_visible,The browser address bar is not visible in your screenshot — make sure the full browser window including the URL bar at the top is captured in your screenshot.,,,,"{
+  ""address_bar_visible"": false,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 606.62,
+  ""measurement_line_visible"": true
+}"
+IMG-20260606-WA0002.webp,True,False,,,False,,,600.71,True,rejected,2,address_bar_not_visible | search_panel_not_showing_olympus_mons,The browser address bar is not visible in your screenshot — make sure the full browser window including the URL bar at the top is captured in your screenshot. | Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": false,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 600.71,
+  ""measurement_line_visible"": true
+}"
+IMG-20260607-WA0012.webp,True,True,-133.84645201168033,18.65275889,False,,,611.73,True,rejected,1,search_panel_not_showing_olympus_mons,Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.846452011680338,
+  ""url_y"": 18.65275889,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 611.73,
+  ""measurement_line_visible"": true
+}"
+IMG_20260503_155755.webp,True,True,-133.82446039432153,18.654784808271707,True,18.65275889,-133.8025,607.2,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.82446039432153,
+  ""url_y"": 18.654784808271707,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 607.2,
+  ""measurement_line_visible"": true
+}"
+IMG_20260601_230359_439.webp,True,True,-133.8354467222416,18.435058249870405,False,,,604.43,True,rejected,1,search_panel_not_showing_olympus_mons,Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.8354467222416,
+  ""url_y"": 18.435058249870405,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 604.43,
+  ""measurement_line_visible"": true
+}"
+IMG_20260602_101029_608 (1).webp,True,True,-133.84643305016158,18.682250628071856,True,18.65275889,-133.8025,607.93,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.84643305016158,
+  ""url_y"": 18.682250628071856,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 607.93,
+  ""measurement_line_visible"": true
+}"
+Image_Jun_9_2026_at_10_15_14_PM.webp,True,True,-131.8579076966297,17.23754850658323,False,,,612.93,True,rejected,1,search_panel_not_showing_olympus_mons,Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -131.8579076966297,
+  ""url_y"": 17.23754850658323,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 612.93,
+  ""measurement_line_visible"": true
+}"
+Screenshot_2026-06-03_200534.webp,True,True,-133.19549312089768,18.470736510628,True,18.65275889,-133.8025,69.43,True,rejected,1,distance_out_of_range,"Your measured diameter is 69.43 km, which is outside the accepted range of 600.13–620.13 km. Redraw the line across the full width of Olympus Mons.",,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.195493120897688,
+  ""url_y"": 18.470736510628,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 69.43,
+  ""measurement_line_visible"": true
+}"
+Screenshot_2026-06-04_171706.webp,True,True,,,False,,,618.8,True,rejected,2,url_coordinates_not_found | search_panel_not_showing_olympus_mons,The x and y coordinates could not be found in the address bar URL — make sure the full NASA Trek URL is visible and not truncated. | Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 618.8,
+  ""measurement_line_visible"": true
+}"
+Screenshot_2026-06-06_092801.webp,True,True,-133.18725337495755,19.830321895718804,False,,,613.92,True,rejected,1,search_panel_not_showing_olympus_mons,Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.18725337495755,
+  ""url_y"": 19.830321895718804,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 613.92,
+  ""measurement_line_visible"": true
+}"
+Screenshot_2026-06-08_125841.webp,True,True,-134.56054436496584,23.66455033982172,False,,,601.59,True,rejected,1,search_panel_not_showing_olympus_mons,Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -134.56054436496584,
+  ""url_y"": 23.664550339821718,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 601.59,
+  ""measurement_line_visible"": true
+}"
+Screenshot_218.webp,True,True,-133.82446039432142,18.654784808271728,False,,,3.8,False,rejected,3,distance_out_of_range | search_panel_not_showing_olympus_mons | measurement_line_not_visible,"Your measured diameter is 3.8 km, which is outside the accepted range of 600.13–620.13 km. Redraw the line across the full width of Olympus Mons. | Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel. | The measurement line isn't visible on the Mars map — make sure the line drawn across Olympus Mons is clearly shown in your screenshot.",,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.82446039432142,
+  ""url_y"": 18.654784808271728,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 3.8,
+  ""measurement_line_visible"": false
+}"
+WhatsApp Image 2026-06-11 at 12.00.38 PM.jpeg,True,False,,,True,18.65275889,-133.8025,608.49,True,rejected,1,address_bar_not_visible,The browser address bar is not visible in your screenshot — make sure the full browser window including the URL bar at the top is captured in your screenshot.,,,,"{
+  ""address_bar_visible"": false,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 608.49,
+  ""measurement_line_visible"": true
+}"
+WhatsApp Image 2026-06-11 at 12.05.34 PM.jpeg,True,False,,,True,18.65275889,-133.8025,614.39,True,rejected,1,address_bar_not_visible,The browser address bar is not visible in your screenshot — make sure the full browser window including the URL bar at the top is captured in your screenshot.,,,,"{
+  ""address_bar_visible"": false,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 614.39,
+  ""measurement_line_visible"": true
+}"
+WhatsApp_Image_2026-06-03_at_12.26.27_PM.webp,True,True,-132.62116831287128,18.95525567627868,False,,,614.55,True,rejected,1,search_panel_not_showing_olympus_mons,Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -132.62116831287128,
+  ""url_y"": 18.955255676278678,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 614.55,
+  ""measurement_line_visible"": true
+}"
+WhatsApp_Image_2026-06-06_at_5.30.05_PM.webp,True,False,,,False,,,588.64,True,rejected,3,address_bar_not_visible | distance_out_of_range | search_panel_not_showing_olympus_mons,"The browser address bar is not visible in your screenshot — make sure the full browser window including the URL bar at the top is captured in your screenshot. | Your measured diameter is 588.64 km, which is outside the accepted range of 600.13–620.13 km. Redraw the line across the full width of Olympus Mons. | Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.",,,,"{
+  ""address_bar_visible"": false,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 588.64,
+  ""measurement_line_visible"": true
+}"
+akshaykumar-3mulearn_1.webp,True,True,-129.40500212912158,19.456786474643653,True,18.65275889,-133.8025,612.38,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -129.40500212912158,
+  ""url_y"": 19.456786474643652,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 612.38,
+  ""measurement_line_visible"": true
+}"
+dayanashijumulearn_20260508_210233_0000.webp,True,True,-129.08935306077313,16.193847354176988,True,18.65275889,-133.8025,609.4,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -129.08935306077313,
+  ""url_y"": 16.193847354176988,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 609.4,
+  ""measurement_line_visible"": true
+}"
+image (1).webp,True,True,-127.91383493484474,18.6857178737602,True,18.65275889,-133.8025,608.81,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -127.91383493484474,
+  ""url_y"": 18.6857178737602,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 608.81,
+  ""measurement_line_visible"": true
+}"
+image (2).webp,True,True,-133.06687411187085,18.291371968230933,False,,,610.18,True,rejected,1,search_panel_not_showing_olympus_mons,Your screenshot does not show the Olympus Mons information in the left search panel — this also means the Latitude and Longitude values are not visible. Make sure you have searched for Olympus Mons and its details are shown in the left panel.,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -133.06687411187085,
+  ""url_y"": 18.291371968230933,
+  ""olympus_mons_in_search_tab"": false,
+  ""latitude"": null,
+  ""longitude"": null,
+  ""terrain_distance_km"": 610.18,
+  ""measurement_line_visible"": true
+}"
+image.webp,True,True,-131.48437254734756,18.36914028234999,True,18.65275889,-133.8025,615.57,True,approved,0,,,,,,"{
+  ""address_bar_visible"": true,
+  ""url_x"": -131.484372547347568,
+  ""url_y"": 18.36914028234999,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 615.57,
+  ""measurement_line_visible"": true
+}"
+ml_2.webp,True,False,,,True,18.65275889,-133.8025,609.34,True,rejected,1,address_bar_not_visible,The browser address bar is not visible in your screenshot — make sure the full browser window including the URL bar at the top is captured in your screenshot.,,,,"{
+  ""address_bar_visible"": false,
+  ""url_x"": null,
+  ""url_y"": null,
+  ""olympus_mons_in_search_tab"": true,
+  ""latitude"": 18.65275889,
+  ""longitude"": -133.8025,
+  ""terrain_distance_km"": 609.34,
+  ""measurement_line_visible"": true
+}"
