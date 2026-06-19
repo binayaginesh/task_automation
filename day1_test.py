@@ -184,8 +184,18 @@ def classify(extracted: dict) -> tuple:
 # ============================================================
 # PROCESS ONE IMAGE
 # ============================================================
-def process_image(image_path: str) -> dict:
-    image = Image.open(image_path).convert("RGB")
+def process_image(image_input) -> dict:
+    import io
+    if isinstance(image_input, (str, os.PathLike)):
+        image = Image.open(image_input).convert("RGB")
+        filename = os.path.basename(image_input)
+    elif isinstance(image_input, bytes):
+        image = Image.open(io.BytesIO(image_input)).convert("RGB")
+        filename = "uploaded_image.png"
+    else:
+        # Assume it's a file-like object
+        image = Image.open(image_input).convert("RGB")
+        filename = getattr(image_input, "name", "uploaded_image.png")
 
     max_retries = 5
     backoff     = 15
@@ -211,7 +221,7 @@ def process_image(image_path: str) -> dict:
     match   = re.search(r"\{.*\}", cleaned, re.DOTALL)
 
     base = {
-        "file":              os.path.basename(image_path),
+        "file":              filename,
         "parse_success":     False,
         "address_bar_visible": None,
         "url_x":             None,
@@ -243,7 +253,7 @@ def process_image(image_path: str) -> dict:
         decision, all_reasons, all_messages, failures = classify(data)
 
         return {
-            "file":                    os.path.basename(image_path),
+            "file":                    filename,
             "parse_success":           True,
             "address_bar_visible":     data.get("address_bar_visible"),
             "url_x":                   data.get("url_x"),
